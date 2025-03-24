@@ -1,17 +1,21 @@
 [toolchain]
 
+
 [features]
 resolution = true
+seeds=true
 skip-lint = false
 
 [programs.localnet]
-smart_contract_counter = "EMDedCPiESfktXgEfF5FKgtzTCsPQNiB5A737PB4Nuh9"
+smart_contract_counter = "9AMX3iy96Pu2Y7wuHg6aF8dTQDBFvnZmnhpqTFg4DxmC"
+[programs.devnet]
+smart_contract_counter="9AMX3iy96Pu2Y7wuHg6aF8dTQDBFvnZmnhpqTFg4DxmC"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
